@@ -1,0 +1,78 @@
+.project-page{
+    width: 85%;
+margin: auto;
+}
+
+.project-page-title-container{
+    margin-bottom: 10vw;
+}
+.project-page-project-title{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.project-page-projct-tags{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+.project-page-projct-tag{
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight:400 ;
+    color: var(--text-primary-color);
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.project-page-step-1, .project-page-step-4{
+    margin-bottom: 10vw;
+}
+
+
+.project-page-step-1-cover, .project-page-step-4-cover{
+    width: 100%;
+    height: auto;
+}
+
+
+.project-page-step-1-cover img, .project-page-step-4-cover img{
+    width: 100%;
+
+}
+
+
+.project-page-step-1-title, .project-page-step-2-3-title,.project-page-step-4-title{
+    margin: 10px 0px;
+}
+
+
+.project-page-step-1-description, .project-page-step-2-3-description,.project-page-step-4-description{
+    margin:0;
+}
+
+.project-page-step-2-3-cover{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.project-page-step-2-3-cover img{
+    width: 100%;
+
+}
+
+
+
+
+.project-page-project-step-2-3-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vw;
+}
+.project-page-project-step-2-3{
+    width: 45%;
+}

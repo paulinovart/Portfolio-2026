@@ -1,0 +1,300 @@
+
+/* Initialisation and general styles */
+
+
+html{
+    background-color:#033359 ;
+
+}
+
+
+
+*>*>*{
+  border: 2px solid green;
+}
+*>*>*>*{
+  border: 1.5px solid red;
+}
+
+*>*>*>*>*{
+  border: 1px solid yellow;
+}
+
+*>*>*>*>*>*{
+  border: 1px solid purple;
+}
+*>*>*>*>*>*>*{
+  border: 1px solid rgb(242, 107, 129);
+}
+
+@font-face {
+    font-family: Broadacre-thin-0;
+    src: url(fonts/broadacre/Broadacre_Thin_0.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Broadacre-medium-0;
+    src: url(fonts/broadacre/Broadacre_Medium_0.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: Broadacre-hairline-0;
+    src: url(fonts/broadacre/fonnts.com-Broadacre_Hairline_0.otf) format("opentype");
+}
+
+
+:root {
+    --text-primary-color: white;
+  }
+
+
+  h1{
+    text-transform: uppercase;
+    font-family: Broadacre-hairline-0 ;
+    color: var(--text-primary-color);
+    font-size: 200px;
+  }
+
+
+  h2{
+    font-family: Broadacre-medium-0;
+    color: var(--text-primary-color);
+    font-size: 36px;
+
+  }
+  h4{
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight:400 ;
+    color: var(--text-primary-color);
+    font-size: 16px;
+  }
+
+  h3{
+    text-transform: uppercase;
+    font-family: Broadacre-hairline-0 ;
+    color: var(--text-primary-color);
+    font-size: 48px;
+  }
+
+  h5{
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight:400 ;
+    color: var(--text-primary-color);
+    font-size: 16px;
+  }
+  h6{
+    font-family: poppins;
+    font-weight:40 ;
+    color: var(--text-primary-color);
+    font-size: 16px;
+  }
+
+  p{
+    font-family: poppins;
+    font-weight:40 ;
+    color: var(--text-primary-color);
+    font-size: 14px;
+  }
+
+
+
+/* Header and navbar */
+
+
+
+.header-section{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+}
+
+
+.navbar{
+display: flex;
+justify-content: flex-end;
+gap: 20px;}
+
+
+.navabar-element{
+    color: var(--text-primary-color);
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    list-style: none;
+    display: inline-block;
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+ .logo-section{
+color: var(--text-primary-color);
+font-size: 32px;
+font-family: Broadacre;
+font-weight: 500;
+text-transform: uppercase;
+
+ }
+
+
+
+/* Home page, top of it */
+.home-section{
+  margin-top: 10vw;
+
+}
+.portfolio-title{
+    padding-top: 0%;
+width: 80%;
+margin: auto;
+    text-align: center;
+}
+
+.my-name{
+    text-align: right;
+    width: 80%;
+    margin: auto;
+}
+
+
+.portfolio-home-section-2{
+display: flex;
+width: 80%;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10vw;
+}
+
+.portfolio-description{
+  width: 40%;
+ 
+
+}
+
+.bouton-me-contacter{
+
+  right: 0%;
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid --text-primary-color;
+  border-radius: 200px;
+  height: fit-content;
+
+}
+.bouton-me-contacter>*{  height: fit-content;
+justify-content: center;
+align-items: center;
+margin: 0;
+color :var(--text-primary-color);}
+
+
+.home-page-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vw;
+  width: 90%;
+  margin: auto;
+}
+
+.home-page-skill{
+  width: fit-content;
+  height: fit-content;
+  color: var(--text-primary-color);
+  text-decoration: none;
+}
+
+
+.home-page-skill a{
+
+  color: var(--text-primary-color);
+  text-decoration: none;
+}
+.home-page-skills{
+  display: flex;
+  width: 70%;
+  justify-content: right;
+  gap: 10px;
+}
+
+.see-projects{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.see-projects-arrow{
+border-radius: 50px;
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--text-primary-color);
+border: 1px solid white;
+}
+
+
+/* partie projets*/
+
+.home-page-projects-section{
+  margin: 40px;
+}
+.home-page-project{
+  width: fit-content;
+}
+
+.home-page-project-cover{
+  height: 600px;
+  width: fit-content;
+}
+.home-page-project-cover img{
+  height: 100%;
+  width: fit-content;
+}
+.home-page-project-title{
+  display: flex;
+  margin: 10px 0;
+  gap: 10px;
+  width: fit-content;
+}
+.home-page-project-title h5{
+  margin: 0;
+  padding: 0;
+}
+.home-page-project-tag{
+  opacity: 0.6;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  align-items: center;
+  /* parametres de h5 */
+  text-transform: uppercase;
+    font-family: poppins;
+    font-weight:400 ;
+    color: var(--text-primary-color);
+    font-size: 14px;
+}
+
+.home-page-project-tags{
+  width: fit-content;
+  height: fit-content;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-page-projetct-description{
+  width: 40%;
+}
