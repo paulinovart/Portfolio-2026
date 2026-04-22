@@ -35,7 +35,7 @@
           }
       ]
   },
-  "projet_bnf": {
+  "borne-bnf": {
       "title": "Borne interactive pour la BNF",
       "tags": [
           "Travail d’équipe",
@@ -93,7 +93,7 @@
               ]
           },
           
-          "projet_vegi": {
+          "vegi": {
       "title": "Application de cuisine Végétarienne",
       "tags": [
           "Brand design",
@@ -121,7 +121,7 @@
       ]
   },
 
-  "projet_pochette_cd": {
+  "cd-id": {
       "title": "Pochette de disque",
       "tags": [
           "Photoshop",
