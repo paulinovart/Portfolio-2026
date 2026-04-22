@@ -27,7 +27,7 @@ margin: auto;
     opacity: 0.6;
 }
 
-.project-page-step-full, .project-page-step-full{
+.project-page-step-full, .project-page-step, .project-page-step-double{
     margin-bottom: 10vw;
 }
 
@@ -44,12 +44,7 @@ margin: auto;
 }
 
 
-.project-page-step-full-title, .project-page-step-double-title,.project-page-step-full-title{
-    margin: 10px 0px;
-}
-
-
-.project-page-step-full-description, .project-page-step-double-description,.project-page-step-full-description{
+.project-page-step-full-text h6, .project-page-step-double-text h6{
     margin:0;
 }
 
@@ -65,6 +60,9 @@ margin: auto;
 
 }
 
+
+
+.project-page-step-full-text h5, .project-page-step-double-text h5{    margin: 10px 0px;}
 
 
 

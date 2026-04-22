@@ -27,6 +27,7 @@ fetch("projects.json")
 
       const div = document.createElement("div");
       div.className = "project-page-step-full";
+      div.className = "project-page-step";
     
       div.innerHTML = `
         <div class="project-page-step-full-cover">
@@ -45,6 +46,8 @@ fetch("projects.json")
 
       const wrapper = document.createElement("div");
       wrapper.className = "project-page-step-double-container";
+
+
     
       step.items.forEach(item => {
     

@@ -8,7 +8,7 @@
       "steps": [
           {
               "type": "full",
-              "image": "img1.png",
+              "image": "images/projet-système-solaire/systeme-solaire-mockup-1.png",
               "title": "Idée et recueil de données",
               "description": "Lors d’un workshop d’introduction à la librairie Three JS, j’ai décidé de concevoir une maquette interactive du système solaire, afin de pouvoir le représenter à la bonne échelle, chose impossible sur une maquette classique, en raison des distances immenses. J’ai donc commencé par convertir les mesures des orbites et rayons des planètes à une échelle de facteur 1 : 100 000 000, que j’ai ensuite répertoriées dans un tableau javascript."
           },
@@ -16,12 +16,12 @@
               "type": "double",
               "items": [
                   {
-                      "image": "img2.png",
+                      "image": "images/projet-système-solaire/systeme_solaire_etape_2.png",
                       "title": "Génération des planètes et orbites",
                       "description": "à partir de ces données, j’ai créé une boucle de création d’objet ThreeJS qui crée une orbite (vecteur) et une planète (mesh) par planète, en fonction de ses caractéristiques. Pour chaque planète j’ai également créé un cercle blanc (sprite) à taille fixe pour indiquer sa position quand la planète est trop petite pour être vue, ainsi qu’une légende avec le nom de la planète. POur résoudre le problème de chargement du aux échelles immenses, j’ai utilisé un logarithmic buffer."
                   },
                   {
-                      "image": "img3.png",
+                      "image": "images/projet-système-solaire/systeme_solaire_etape_3.png",
                       "title": "Ajout des informations dynamiques et de la navigation",
                       "description": "Une fois le modèle 3D créé, j’ai voulu créer une navigation fluide pour l'utilisateur en ajoutant un effet de “hover” lorsqu’il survole une des planètes avec sa souris, à l’aide de la technologie du raycaster. J’ai rajouté dans chaque élément “planète” de mon tableau des informations relatives à celle-ci, que j’ai tirées du site du CNES, qui s’affichent dynamiquement en fonction de la planète sur laquelle l’utilisateur à cliqué. Au clic sur une planète, la caméra effectue un déplacement fluide vers celle- ci à l’aide d’un lerp."
                   }
@@ -29,7 +29,7 @@
           },
           {
               "type": "full",
-              "image": "img4.png",
+              "image": "images/projet-système-solaire/systeme_solaire_etape_4.png",
               "title": "Textures et lumière",
               "description": " La dernière étape de mon travail consistait à ajouter des textures propres à chaque planète, grâce à des images-textures, et une image d’environnement et hdr. J’ai ensuite créé une source de lumière au centre de la scène pour simuler la lumière du soleil, afin de produire des ombres cohérentes sur les planètes, ainsi qu’une lumière ambiante légère."
           }
@@ -48,12 +48,12 @@
               "type": "double",
               "items": [
                   {
-                      "image": "img2.png",
+                      "image": "images/projet-bnf/mockup bnf 1.png",
                       "title": "Brief de la BNF et création du projet",
                       "description": "Nous avons été contactés par la BNF pour leur créer une borne interactive, qui sera placée dans une exposition dédiée à une ancienne reliure, datant du ??e siècle. Le client nous a présenté l'exposition, les délais et modalités de la collaboration, ainsi que les objectifs de ce projet : faire découvrir le clou de cette exposition, la reliure, à tout type de public, de manière ludique, accessible et instructive. "
                   },
                   {
-                      "image": "img3.png",
+                      "image": "images/projet-bnf/projet_bnf_etape_2.jpg",
                       "title": "Réflexion utilisateur et apprentissage approfondi de JS",
                       "description": "La première étape de ce projet fut de réfléchir au parcours utilisateur de la borne, afin de décider des différents écrans nécessaires. Une première équipe a donc utilisé des outils d’UX design comme des Personas et Empathy map avant de réaliser le premier prototypage. Pendant ce temps, l’équipe des développeurs dont je faisais partie s’est formée aux technologies JavaScript qui allaient être nécessaires pour la réalisation de ce projet, notamment l’utilisation de JSON, la réalisation de “drag and drop” et l’utilisation des canvas. Nos deux équipes ont travaillé main dans la main afin de garder une cohérence, et de travailler efficacement tout au long de ce processus."
                   }
@@ -63,12 +63,12 @@
               "type": "double",
               "items": [
                   {
-                      "image": "img2.png",
+                      "image": "images/projet-bnf/projet_bnf_etape_3.jpg",
                       "title": "Répartition des tâches et apprentissage de git",
                       "description": "Après avoir pris connaissance du prototype fini réalisé par l’équipe de design, l'équipe de développement s’est répartie les tâches en identifiant les principales étapes et technologies dont nous allions avoir besoin. Nous nous sommes ensuite formés à git, afin de travailler en équipe sur un seul et même projet, grâce à différentes branches sur github.            "
                   },
                   {
-                      "image": "img3.png",
+                      "image": "iimages/projet-bnf/projet_bnf_etape_4.jpg",
                       "title": "réalisation du zoom sur la reliure",
                       "description": "Avec ma coéquipière, nous étions chargées de réaliser le zoom utilisateur dans l’image de la reliure reconstituée. Cette étape du parcours, après la reconstitution de la reliure par l'utilisateur, lui permet de se déplacer par lui-même dans une version très détaillée de la reliure, chose impossible à faire par d'autres moyens que celui d’un écran. Nous avons décidé d’opter pour un curseur d'agrandissement, en raison des spécificités dues à la tactilité de la borne. Nous avons réutilisé la position de l’utilisateur dans l’image, afin de l’afficher sur une version miniature en haut à droite de l’interface et de rendre la navigation plus intuitive"
                   }
@@ -80,12 +80,12 @@
           { "type": "double",
                   "items": [
                       {
-                          "image": "img2.png",
+                          "image": "images/projet-bnf/projet_bnf_etape_5.HEIC",
                           "title": "Réunion de nos codes et correction des bugs",
                           "description": "Lors de l’assemblage de toutes nos parties, nous avons fait face à quelques problèmes de conflits dans nos codes, qu’il a fallu résoudre. Nous avons également effectué des tests utilisateurs, ce qui nous a permis d’ajouter des élément pour rendre la navigation plus fluide (comme le scintillement des pierres par exemple)."
                       },
                       {
-                          "image": "img3.png",
+                          "image": "images/projet-bnf/projet_bnf_etape_6.jpg",
                           "title": "Présentation de notre projet à la BNF",
                           "description": "Pour conclure cette expérience de collaboration avec la BNF, nous les avons reçus pour une présentation du projet, reprenant les étapes de notre processus de création de la borne. J’ai été nommée responsable d’équipe, et oratrice principale ce qui m’a donné l’opportunité de coordonner cette présentation, et de prendre la parole devant les commanditeurs. "
                       }
@@ -107,14 +107,14 @@
       "steps": [
           {
               "type": "full",
-              "image": "img1.png",
+              "image": "images/projet-vegi/vegi_etape_1.png",
               "title": "Idée du projet et création d’une identité graphique",
               "description": "Comme la plupart de mes projets, celui- ci est tiré d’un besoin que j’ai pu observer dans mon quotidien. Comme une part grandissante des Français, je cherche à réduire ma consommation de viande, et ai donc besoin de nouvelles recettes pour m’adapter. J’ai donc imaginé une application mobile qui permettrait de répertorier des recettes de cuisines végétariennes et vegan, avec des étapes détaillées. J’ai donc commencé par créer une identité graphique et un nom pour cette application : Vegi."
           },
          
           {
               "type": "full",
-              "image": "img4.png",
+              "image": "images/projet-vegi/vegi_etape_2.png",
               "title": "Design de l’interface",
               "description": "Après avoir déterminé la direction graphique de mon projet, j’ai désigné les écrans d’inscription, et certains exemples d’écrans de recettes. Cela m’a notamment permis de réfléchir aux boutons et icônes pour mon application."
           }
@@ -134,19 +134,19 @@
          { "type": "double",
                   "items": [
                       {
-                          "image": "img2.png",
+                          "image": "images/projet-cd/pochette_cd_etape_1.png",
                           "title": "Choix de l’artiste, sélection des images et inspiration",
                           "description": "Pour ce projet de design print, j’ai choisi de réaliser une pochette cd d’un de mes groupes de musique préférés, Imagine Dragons. J’ai commencé par réfléchir aux images que je voulais intégrer, et à leur placement."
                       },
                       {
-                          "image": "img3.png",
+                          "image": "images/projet-cd/pochette_cd_etape_2.png",
                           "title": "Retouche photo sur et design de la couverture et du poster",
                           "description": "J’ai choisi d’utiliser une seule photo pour la couverture, que j’ai étendue afin de créer de la continuité sur le produit. J’ai placé sur le côté extérieur une photo du groupe, ainsi que la liste des musiques présentes dans l’album (fictif, puisqu'il s’agit d’un recueil). À l'intérieur, j’ai placé une photo de chaque membre ainsi que leur nom, en faisant attention à garder de la place pour les découpes lors de l’impression. Le poster est également un livret dépliable au verso, qui contient les paroles de chacune des chansons présentes dans l’album."
                       }
                   ]},
           {
               "type": "full",
-              "image": "img4.png",
+              "image": "images/projet-cd/pochette_cd_etape_3.png",
               "title": "Impression assemblage et mockup",
               "description": "Après avoir réalisé les designs des différents éléments sur photoshop et illustrator, j’ai préparé le fichier pour l’impression sur indesign, que j’ai ensuite imprimé à l’aide d’une presse numérique. J’ai découpé la pochette cd et l’ai assemblée puis y ait placé un cd, que j’avais recouvert d’un macaron reprenant les design de la couverture. J’ai enfin réalisé différents mockups de la création dans photoshop, afin de la voir dans des conditions réelles."
           }
