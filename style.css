@@ -7,7 +7,7 @@ html{
 
 }
 
-
+/*
 
 *>*>*{
   border: 2px solid green;
@@ -25,7 +25,7 @@ html{
 }
 *>*>*>*>*>*>*{
   border: 1px solid rgb(242, 107, 129);
-}
+}*/
 
 @font-face {
     font-family: Broadacre-thin-0;
@@ -344,3 +344,59 @@ margin: 0;
 
 
 /* work experience section*/
+.home-page-work-experience-section{
+  width: 95%;
+  margin: auto;
+}
+
+.home-page-work-experience-section h3{
+width: fit-content;
+}
+
+
+
+
+
+
+
+.work-experience-section{
+    display: flex;
+
+}
+
+
+.work-experience-list{
+    width: 45%;
+    list-style: none;
+}
+
+
+.work-experience-element-title{
+  display:flex ;
+  border-bottom: 1px solid white;
+   border-top: 1px solid white;
+}
+
+
+.work-experience-year{
+  justify-content: flex-end;
+}
+
+
+
+
+
+.formation-section{
+  display: flex;
+}
+
+.formation-list{
+  width: 45%;
+  list-style: none;
+}
+
+.formation-element-title{
+    display:flex ;
+      border-bottom: 1px solid white;
+       border-top: 1px solid white;
+}
