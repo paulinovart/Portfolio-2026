@@ -7,7 +7,7 @@ html{
 
 }
 
-/*
+
 
 *>*>*{
   border: 2px solid green;
@@ -25,7 +25,7 @@ html{
 }
 *>*>*>*>*>*>*{
   border: 1px solid rgb(242, 107, 129);
-}*/
+}
 
 @font-face {
     font-family: Broadacre-thin-0;
@@ -350,7 +350,7 @@ margin: 0;
 }
 
 .home-page-work-experience-section h3{
-width: fit-content;
+text-align: start;
 }
 
 
@@ -379,12 +379,22 @@ width: fit-content;
 
 
 .work-experience-year{
-  justify-content: flex-end;
+margin-left: auto;
 }
 
 .work-experience-company{
   opacity: 0.6;
+    margin-left: 10px;
 }
+
+
+./*work-experience-company::after{
+   content: ">";
+   opacity: 1;
+   }
+   */
+
+
 .work-experience-description{
   display: none;
 }
@@ -395,7 +405,7 @@ width: fit-content;
 
 
 
-
+/* formation section*/
 
 
 
@@ -410,10 +420,11 @@ width: fit-content;
 .home-page-formation-section{
   width: 95%;
   margin: auto;
+  
 }
 
 .home-page-formation-section h3{
-width: fit-content;
+text-align: end;
 }
 
 
@@ -428,11 +439,20 @@ width: fit-content;
        border-top: 0.5px solid white;
 }
 
-
+.formation-year{
+margin-left: auto;
+}
 
 .formation-school{
   opacity: 0.6;
+  margin-left: 10px;
 }
+
+
+/*.formation-school::after{
+   content: ">";
+   opacity: 1;
+}*/
 
 .formation-description{
   display:none ;
