@@ -307,3 +307,40 @@ border: 1px solid white;
 .home-page-projetct-description{
   width: 40%;
 }
+
+
+
+/* about section*/
+
+.home-page-about-section{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 200px;
+}
+
+.about-me-image{
+  width: 200px;
+  height: 200px;
+
+}
+
+.about-me-image img{
+  width: 100%;
+    object-fit: cover;
+
+}
+.about-me-text{
+  width: 50%;
+    align-items: flex-end;
+}
+
+.about-me-text h3{
+width: fit-content;
+margin: 0;
+}
+
+
+
+/* work experience section*/
