@@ -373,14 +373,29 @@ width: fit-content;
 
 .work-experience-element-title{
   display:flex ;
-  border-bottom: 1px solid white;
-   border-top: 1px solid white;
+  border-bottom: 0.5px solid white;
+   border-top: 0.5px solid white;
 }
 
 
 .work-experience-year{
   justify-content: flex-end;
 }
+
+.work-experience-company{
+  opacity: 0.6;
+}
+.work-experience-description{
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -390,6 +405,18 @@ width: fit-content;
   display: flex;
 }
 
+
+
+.home-page-formation-section{
+  width: 95%;
+  margin: auto;
+}
+
+.home-page-formation-section h3{
+width: fit-content;
+}
+
+
 .formation-list{
   width: 45%;
   list-style: none;
@@ -397,6 +424,16 @@ width: fit-content;
 
 .formation-element-title{
     display:flex ;
-      border-bottom: 1px solid white;
-       border-top: 1px solid white;
+      border-bottom: 0.5px solid white;
+       border-top: 0.5px solid white;
+}
+
+
+
+.formation-school{
+  opacity: 0.6;
+}
+
+.formation-description{
+  display:none ;
 }
