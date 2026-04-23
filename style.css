@@ -189,6 +189,26 @@ margin-bottom: 13vw;
   height: fit-content;
 
 }
+
+.bouton-me-contacter:hover{
+color: #033359;
+background-color: white;
+transition:  0.5s ease-in-out;
+}
+
+.bouton-me-contacter:hover .arrow-icon{
+  color: #033359;
+
+}
+
+.bouton-me-contacter:hover .button-text{
+  color: #033359;
+
+}
+
+
+
+
 .bouton-me-contacter>*{  height: fit-content;
 justify-content: center;
 align-items: center;
@@ -332,6 +352,8 @@ border: 1px solid white;
   display: flex;
   justify-content: flex-end;
   gap: 200px;
+  margin-top: 12vw;
+  margin-bottom: 12vw;
 }
 
 .about-me-image{
@@ -367,12 +389,6 @@ margin: 0;
 text-align: start;
 }
 
-
-
-
-
-
-
 .work-experience-section{
     display: flex;
 
@@ -380,7 +396,7 @@ text-align: start;
 
 
 .work-experience-list{
-    width: 45%;
+    width: 50%;
     list-style: none;
 }
 
@@ -390,6 +406,7 @@ text-align: start;
   border-bottom: 0.5px solid white;
    border-top: 0.5px solid white;
    align-items: center;
+
 }
 
 
@@ -403,14 +420,10 @@ margin-left: auto;
 }
 
 
-./*work-experience-company::after{
-   content: ">";
-   opacity: 1;
-   }
-   */
 
 
-.work-experience-description{
+
+.invisible{
   display: none;
 }
 
@@ -444,7 +457,7 @@ text-align: end;
 
 
 .formation-list{
-  width: 45%;
+  width: 50%;
   list-style: none;
 }
 
@@ -453,7 +466,9 @@ text-align: end;
       border-bottom: 0.5px solid white;
        border-top: 0.5px solid white;
        align-items: center;
+
 }
+
 
 .formation-year{
 margin-left: auto;
@@ -464,12 +479,14 @@ margin-left: auto;
   margin-left: 10px;
 }
 
+/* Hover */
 
-/*.formation-school::after{
-   content: ">";
-   opacity: 1;
-}*/
+.formation-element-title:hover .see-element-arrow{
+  transform: translateX(30px);
+  transition: transform 0.4s ease-in-out;
+}
 
-.formation-description{
-  display:none ;
+.work-experience-element-title:hover .see-element-arrow{
+  transform: translateX(30px);
+  transition: transform 0.4s ease-in-out;
 }
