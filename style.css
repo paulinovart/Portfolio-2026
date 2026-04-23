@@ -413,12 +413,14 @@ text-align: start;
 
 .work-experience-element-title{
   display:flex ;
-  border-bottom: 0.5px solid white;
-   border-top: 0.5px solid white;
+
    align-items: center;
 
 }
-
+.work-experience-element{
+  border-bottom: 0.5px solid white;
+  border-top: 0.5px solid white;
+}
 
 .work-experience-year{
 margin-left: auto;
@@ -473,9 +475,15 @@ text-align: end;
 
 .formation-element-title{
     display:flex ;
-      border-bottom: 0.5px solid white;
-       border-top: 0.5px solid white;
+      
        align-items: center;
+
+}
+
+.formation-element{
+
+    border-bottom: 0.5px solid white;
+     border-top: 0.5px solid white;
 
 }
 
