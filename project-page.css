@@ -4,11 +4,12 @@ margin: auto;
 }
 
 .project-page-title-container{
-    margin-bottom: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 .project-page-project-title{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
 }
 
 .project-page-projct-tags{
@@ -27,7 +28,7 @@ margin: auto;
     opacity: 0.6;
 }
 
-.project-page-step-full, .project-page-step, .project-page-step-double{
+.project-page-step-full, .project-page-step{
     margin-bottom: 10vw;
 }
 
@@ -50,7 +51,7 @@ margin: auto;
 
 .project-page-step-double-cover{
     width: 100%;
-    height: auto;
+aspect-ratio:  3/2;
 }
 
 

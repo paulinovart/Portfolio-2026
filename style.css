@@ -18,7 +18,20 @@ html{
   color: var(--text-primary-color);
   border: 1px solid white;
   margin-left: 10px;
-font-size: 30px;}
+font-size: 30px;
+  text-decoration: none;
+}
+
+.back-arrow a{
+  text-decoration: none;
+  color: white;
+}
+
+.back-arrow:hover a{
+  color: #033359;
+}
+
+
 
 
 .back-arrow:hover{
