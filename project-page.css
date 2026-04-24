@@ -52,6 +52,7 @@ margin: auto;
 .project-page-step-double-cover{
     width: 100%;
 aspect-ratio:  3/2;
+overflow: hidden;
 }
 
 
@@ -74,4 +75,5 @@ aspect-ratio:  3/2;
 }
 .project-page-step-double{
     width: 45%;
+
 }
