@@ -6,9 +6,25 @@ html{
     background-color:#033359 ;
 
 }
+.back-arrow{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  position: sticky;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary-color);
+  border: 1px solid white;
+  margin-left: 10px;
+font-size: 30px;}
 
 
-
+.back-arrow:hover{
+  background-color: white;
+  color: #033359;
+}
 
 *>*>*{
   border: 2px solid green;
@@ -140,6 +156,13 @@ text-decoration: none;
 }
 
 
+
+
+.navabar-element:hover{
+  opacity: 0.6;
+  transition: 0.6s ease;}
+
+
  .logo-section{
 color: var(--text-primary-color);
 font-size: 32px;
@@ -149,6 +172,11 @@ text-transform: uppercase;
 text-decoration: none;
 
  }
+
+  .logo-section:hover{
+      opacity: 0.6;
+  transition: 0.6s ease;
+  }
 
 
 
@@ -257,6 +285,12 @@ color :var(--text-primary-color);}
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+
+.see-projects:hover .see-projects-arrow{
+    transform: translateY(20px);
+  transition: transform 0.4s ease-in-out;
 }
 
 .see-projects-arrow{
@@ -401,6 +435,7 @@ text-align: start;
 
 .work-experience-section{
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -432,16 +467,20 @@ margin-left: auto;
 }
 
 
-
-
-
 .invisible{
   display: none;
 }
 
+/*image de la work experience*/
 
+.work-experience-img{
+  width: 40%;
+  aspect-ratio: 3/2;
+}
 
-
+.work-experience-img img{
+  width: 100%;
+}
 
 
 
@@ -453,6 +492,7 @@ margin-left: auto;
 
 .formation-section{
   display: flex;
+  justify-content: space-between;
 }
 
 
@@ -495,6 +535,26 @@ margin-left: auto;
 .formation-school{
   opacity: 0.6;
   margin-left: 10px;
+}
+
+
+
+
+/*image de la formation*/
+
+.formation-img{
+  width: 40%;
+  aspect-ratio: 3/2;
+}
+
+.formation-img img{
+  width: 100%;
+}
+
+
+
+.work-experience-img img{
+  width: 100%;
 }
 
 /* Hover */
