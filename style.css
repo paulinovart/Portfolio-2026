@@ -184,7 +184,7 @@ text-decoration: none;
 
 
 .navabar-element:hover{
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.6s ease;}
 
 
@@ -199,7 +199,7 @@ text-decoration: none;
  }
 
   .logo-section:hover{
-      opacity: 0.6;
+      opacity: 0.7;
   transition: 0.6s ease;
   }
 
