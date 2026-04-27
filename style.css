@@ -51,6 +51,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 
   color: #033359;
 }
 
+/*
 *>*>*{
   border: 2px solid green;
 }
@@ -68,6 +69,8 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 
 *>*>*>*>*>*>*{
   border: 1px solid rgb(242, 107, 129);
 }
+
+*/
 
 @font-face {
     font-family: Broadacre-thin-0;
@@ -141,6 +144,28 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 
     font-size: 14px;
   }
 
+/* Cursor */
+.custom-cursor{
+  /*position: fixed;
+  top: 0;
+  left: 0;*/
+  pointer-events: none;
+  /*display: none;*/
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  position: absolute;
+  z-index: 1000;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  align-items: center;
+justify-content: center;
+color: var(--text-primary-color);
+display: flex;
+}
+
+
 
 
 /* Header and navbar */
@@ -155,7 +180,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 
     grid-template-rows: auto;
     grid-template-columns: max-content 1fr max-content;
     align-items: center;
-    z-index: 1000;
+    z-index: 100;
 }
 
 
@@ -245,7 +270,7 @@ margin-bottom: 13vw;
   display: flex;
   gap: 10px;
   padding: 15px;
-  border: 1px solid --text-primary-color;
+  border: 1px solid white;
   border-radius: 200px;
   height: fit-content;
 

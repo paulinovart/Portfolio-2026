@@ -6,6 +6,7 @@ const workExperienceElements = document.querySelectorAll(".work-experience-eleme
 const formationElements= document.querySelectorAll(".formation-element");
 const formationImg = document.querySelector(".formation-img");
 const workExperienceImg = document.querySelector(".work-experience-img");
+const homePageCoverImages = document.querySelectorAll(".home-page-project-cover");
 
 //redirection vers les pages des projets spécifiques quand on clique dessus
 
@@ -16,6 +17,31 @@ projects.forEach(project => {
 
     window.location.href = `project.html?id=${id}`;
   });
+});
+
+
+//curseur personnalisé
+
+const cursor = document.querySelector('.custom-cursor');
+
+
+homePageCoverImages.forEach(element => {
+
+ element.addEventListener('mousemove', (e) => {
+  cursor.style.left = e.pageX + 'px';
+  cursor.style.top = e.pageY + 'px';
+  console.log(cursor.style.top);
+});
+// on eleve la classe invisible, et on la remet au mouse leave
+element.addEventListener('mouseenter',(e) => {
+   cursor.classList.remove("invisible");
+}) ;
+
+element.addEventListener('mouseleave',(e) => {
+    cursor.classList.add("invisible");
+}) 
+
+    
 });
 
 
