@@ -663,3 +663,27 @@ margin-left: auto;
 
 /* Responsive */
 
+@media (max-width: 640px) {
+h1{
+  font-size: 65px;
+}
+h2{
+  font-size: 25px;
+}
+  
+.portfolio-home-section-2{
+  display: block;
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+}
+.portfolio-description{
+  width: 100%;
+ }
+
+ .bouton-me-contacter{
+
+width: fit-content;
+ }
+
+
+}
