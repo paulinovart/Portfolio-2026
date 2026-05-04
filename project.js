@@ -21,6 +21,9 @@ fetch("projects.json")
       tagsContainer.appendChild(p);
     });
 
+    // LINK 
+    const linkContainer = document.getElementById("project-link");
+
     // STEPS
     const container = document.getElementById("project-steps");
     function renderFull(step) {

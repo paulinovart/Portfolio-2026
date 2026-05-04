@@ -157,11 +157,13 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 
   border: 1px solid white;
   position: absolute;
   z-index: 1000;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
+  background-color: #ffffff;
+
+  transform: translateY(-50%) translateX(-50%) ;
   align-items: center;
 justify-content: center;
-color: var(--text-primary-color);
+color: #033359;
+font-size: 30px;
 display: flex;
 }
 
@@ -392,6 +394,7 @@ border: 1px solid white;
   max-height:600px ;
   min-height: 400px;
   width: fit-content;
+  cursor:none;
 }
 .home-page-project-cover img{
   height: 100%;
@@ -654,3 +657,9 @@ margin-left: auto;
   opacity: 0.6;
   transition: 0.6 ease;
 }
+
+
+
+
+/* Responsive */
+
