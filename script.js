@@ -7,6 +7,18 @@ const formationElements= document.querySelectorAll(".formation-element");
 const formationImg = document.querySelector(".formation-img");
 const workExperienceImg = document.querySelector(".work-experience-img");
 const homePageCoverImages = document.querySelectorAll(".home-page-project-cover");
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+
+
+
+menu.onclick = () => {
+  menu.classList.toggle('fa-bars');
+  menu.classList.toggle('fa-close'); 
+  navbar.classList.toggle('active');
+}
 
 //redirection vers les pages des projets spécifiques quand on clique dessus
 
