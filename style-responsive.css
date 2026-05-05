@@ -1,246 +1,273 @@
 @media (max-width: 640px) {
-    h1{
-      font-size: 55px;
-    }
-    h2{
-      font-size: 20px;
-    }
-    
-    
-    h4{
-    
-      font-size: 16px;
-    }
-    
-    h3{
-    
-      font-size: 40px;
-    }
-    
-    h5{
-    
-      font-size: 16px;
-    }
-    h6{
-    
-      font-size: 16px;
-    }
-    
-    p{
-    
-      font-size: 14px;}
-    
-      .home-section{
-        margin-top: 40vw;
-      }
-      
-    .portfolio-home-section-2{
-      display: block;
-      margin-top: 2vw;
-      margin-bottom: 40vw;
-    }
-    .portfolio-description{
-      width: 100%;
-      margin-bottom: 8vw;
-     }
-    
-     .bouton-me-contacter{
-    
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .home-section {
+    margin-top: 40vw;
+  }
+
+  .portfolio-home-section-2 {
+    display: block;
+    margin-top: 2vw;
+    margin-bottom: 40vw;
+  }
+  .portfolio-description {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+
+  .bouton-me-contacter {
     width: fit-content;
-     }
-    
-    
-    /*Menu burger*/
-    
-    
-    
-    
-    
-    #menu-icon{
-      display: inline-block;
-      color: white;
-      font-size: 40px;
-      z-index: 200;
-    }
-    #menu-icon:hover{
-      opacity: 0.6;
-    }
-    
-    
-    .navbar{
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      background: var(--bg-color, rgba(3,51,89,0.85));
-      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-      transition: clip-path 0.5s ease, opacity 0.3s ease;
-      z-index: 100;
-      pointer-events: none;
-      opacity: 0;
-    }
-    
-    
-    .navbar.active{
-      transition: clip-path 0.5s ease, opacity 0.3s ease;
-      position: fixed;
-      inset: 0;              
-      width: 100vw;
-      height: 100vh;
-      clip-path: none;
-      margin: 0;
-      padding: 2rem 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      pointer-events: auto;
-      opacity: 1;
-    }
-    
-    
-    .navbar a{
-      margin: 0;
-      padding: 1.25rem 2rem;
-      display: block;
-      background: transparent;
-      width: 100%;
-      max-width: 640px; 
-      font-size: 28px;
-      color: var(--text-primary-color);
-      text-decoration: none;
-    }
-    
-    
-    .header-section{
-      display: flex;
-      justify-content: space-between;
-      width: 90%;
-      margin: auto;
-    }
-    
-    .home-page-bottom{
-      display:block ;
-    }
-    
-    .home-page-skills{
-      display: flex;
-      flex-wrap: wrap;
+  }
 
-      justify-content: center;
-      width: 100%;
-    }
+  /*Menu burger*/
 
-    .home-page-skill{     
-        padding: 0;
-        margin: 0;
-    }
-    
-    .see-projects{
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-    
-    .home-page-project-tag{
-      
-        font-size: 16px;
-    }
-    
+  #menu-icon {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    z-index: 200;
+  }
+  #menu-icon:hover {
+    opacity: 0.6;
+  }
 
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--bg-color, rgba(3, 51, 89, 0.85));
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.5s ease, opacity 0.3s ease;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+  }
 
-    .home-page-projects-section{
-width: 90%;
-margin: auto;
-      }
-      .home-page-project{
-        width: 100%;
-        margin-bottom: 13vw;
-        margin-right: 0;
-        margin-left: 0;
-      }
-      
-      
-      .home-page-project-cover{
-    
-        width: 100%;
-        cursor:none;
-      }
-      .home-page-project-cover img{
-width: 100%;
-object-fit: cover;
+  .navbar.active {
+    transition: clip-path 0.5s ease, opacity 0.3s ease;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    clip-path: none;
+    margin: 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    opacity: 1;
+  }
 
-        
-      }
-      .home-page-project-title{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 0;
-        gap: 10px;
-        width: fit-content;
-      }
-
-
-      .home-page-project-tags{ 
-        flex-wrap: wrap;
-    }
-
-
-    .home-page-about-section{
-        display: block;
-    }
-
-    .home-page-work-experience-section{
-        display: block;
-    }
-
-    .work-experience-section{
-        display: block;
-    }
-
-    .home-page-formation-section{
-        display: block;
-    }
-
-    .formation-section{
-        display: block;
-    }
-
-    .work-experience-list{
-        margin-left: 0%;
-        width: 100%;
-        padding: 0%;
-}
-/*.formation-element-title{
-    flex-wrap: wrap;
-}
-
-.work-experience-element-title{
-    flex-wrap: wrap;
-}*/
-
-
-    .formation-list{
-        width: 100%;
-        margin-left: 0%;
-        padding: 0%;
-}
-
-.formation-img{
+  .navbar a {
+    margin: 0;
+    padding: 1.25rem 2rem;
+    display: block;
+    background: transparent;
     width: 100%;
-};
+    max-width: 640px;
+    font-size: 28px;
+    color: var(--text-primary-color);
+    text-decoration: none;
+  }
 
-.work-experience-img{
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  .home-page-bottom {
+    display: block;
+  }
+
+  .home-page-skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
     width: 100%;
-};
-    
+  }
 
-    .formation-element-title{ width: 100%;}
+  .home-page-skill {
+    padding: 0;
+    margin: 0;
+  }
+  .home-page-about-section{
+    width: 80%;
+    margin: auto;
+  }
+
+.about-me-text{
+    width: 100%;
+    margin: auto;
+}
+  
+.about-me-image{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+  .see-projects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .home-page-project-tag {
+    font-size: 16px;
+  }
+
+  .home-page-projects-section {
+    width: 90%;
+    margin: auto;
+  }
+  .home-page-project {
+    width: 100%;
+    margin-bottom: 13vw;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .home-page-project-cover {
+    width: 100%;
+    cursor: none;
+  }
+  .home-page-project-cover img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .home-page-project-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    gap: 10px;
+    width: fit-content;
+  }
+
+  .home-page-project-tags {
+    flex-wrap: wrap;
+  }
+
+  .home-page-about-section {
+    display: block;
+  }
+
+  .home-page-work-experience-section {
+    display: block;
+    width: 80%;
+  }
+
+  .work-experience-section {
+    display: block;
+  }
+
+  .home-page-formation-section {
+    display: block;
+    width: 80%;
+  }
+
+  .formation-section {
+    display: block;
+  }
+
+  .work-experience-list {
+    margin-left: 0%;
+    width: 100%;
+    padding: 0%;
+  }
+  .formation-element-title {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
 
-    
-    
-    }
+
+  .formation-title {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .formation-school {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .formation-year {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+
+
+
+  .work-experience-element-title {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+
+
+  .work-experience-title {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .work-experience-company {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .work-experience-year {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+
+
+
+  .formation-list {
+    width: 100%;
+    margin-left: 0%;
+    padding: 0%;
+  }
+
+  .formation-img {
+    width: 100%;
+  }
+
+  .work-experience-img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+  }
+
+  .formation-element-title {
+    width: 100%;
+  }
+}
