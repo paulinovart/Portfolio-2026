@@ -28,6 +28,42 @@ margin: auto;
     opacity: 0.6;
 }
 
+
+.link-buton{
+
+    right: 0%;
+    display: flex;
+    margin: 5vw auto ;
+    gap: 10px;
+    padding: 15px;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 200px;
+    height: fit-content;
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+
+  
+  }
+  
+  
+  .link-buton:hover{
+  color: #033359;
+  background-color: white;
+  transition:  0.5s ease-in-out;
+  }
+  
+  .link-buton:hover {
+    color: #033359;
+  
+  }
+  
+  .link-buton:hover {
+    color: #033359;
+  
+  }
+
 .project-page-step-full, .project-page-step{
     margin-bottom: 10vw;
 }
@@ -109,6 +145,44 @@ overflow: hidden;
 
         margin: auto;
     }
+
+
+
+
+    .link-buton{
+
+        right: 0%;
+        display: flex;
+        margin: 10vw auto ;
+        gap: 10px;
+        padding: 15px;
+        width: fit-content;
+        border: 1px solid white;
+        border-radius: 200px;
+        height: fit-content;
+        color: white;
+        font-family: poppins;
+        text-decoration: none;
+
+      
+      }
+      
+      
+      .link-buton:hover{
+      color: #033359;
+      background-color: white;
+      transition:  0.5s ease-in-out;
+      }
+      
+      .link-buton:hover {
+        color: #033359;
+      
+      }
+      
+      .link-buton:hover {
+        color: #033359;
+      
+      }
   
 
    
