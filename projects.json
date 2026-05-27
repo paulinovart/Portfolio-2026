@@ -70,7 +70,7 @@
                       "description": "Après avoir pris connaissance du prototype fini réalisé par l’équipe de design, l'équipe de développement s’est répartie les tâches en identifiant les principales étapes et technologies dont nous allions avoir besoin. Nous nous sommes ensuite formés à git, afin de travailler en équipe sur un seul et même projet, grâce à différentes branches sur github.            "
                   },
                   {
-                      "image": "iimages/projet-bnf/projet_bnf_etape_4.jpg",
+                      "image": "images/projet-bnf/projet_bnf_etape_4.jpg",
                       "title": "réalisation du zoom sur la reliure",
                       "description": "Avec ma coéquipière, nous étions chargées de réaliser le zoom utilisateur dans l’image de la reliure reconstituée. Cette étape du parcours, après la reconstitution de la reliure par l'utilisateur, lui permet de se déplacer par lui-même dans une version très détaillée de la reliure, chose impossible à faire par d'autres moyens que celui d’un écran. Nous avons décidé d’opter pour un curseur d'agrandissement, en raison des spécificités dues à la tactilité de la borne. Nous avons réutilisé la position de l’utilisateur dans l’image, afin de l’afficher sur une version miniature en haut à droite de l’interface et de rendre la navigation plus intuitive"
                   }
@@ -82,7 +82,7 @@
           { "type": "double",
                   "items": [
                       {
-                          "image": "images/projet-bnf/projet_bnf_etape_5.HEIC",
+                          "image": "images/projet-bnf/projet_bnf_etape_5.jpg",
                           "title": "Réunion de nos codes et correction des bugs",
                           "description": "Lors de l’assemblage de toutes nos parties, nous avons fait face à quelques problèmes de conflits dans nos codes, qu’il a fallu résoudre. Nous avons également effectué des tests utilisateurs, ce qui nous a permis d’ajouter des élément pour rendre la navigation plus fluide (comme le scintillement des pierres par exemple)."
                       },
