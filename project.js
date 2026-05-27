@@ -22,8 +22,14 @@ fetch("projects.json")
     });
 
     // LINK 
+
+    //if  (!("link" in project)) 
+
+if(project.hasOwnProperty("link")){
+
     const linkContainer = document.getElementById("project-link");
     linkContainer.innerHTML = `  <a class="link-buton" href="${project.link}"> <div class="arrow-icon">↗</div> Voir le projet</a>`
+  }
 
     // STEPS
     const container = document.getElementById("project-steps");

@@ -44,7 +44,7 @@
           "Travail d’équipe",
           "UX design"
       ],
-      "link":"",
+      
       "steps": [
           {
               "type": "double",
@@ -106,7 +106,7 @@
 
 
       ],
-      "link":"",
+
       "steps": [
           {
               "type": "full",
@@ -132,7 +132,7 @@
            "Design Print"
 
       ],
-      "link":"",
+
       "steps": [
          
          { "type": "double",
