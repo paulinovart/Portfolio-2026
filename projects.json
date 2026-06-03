@@ -124,6 +124,54 @@
       ]
   },
 
+
+
+
+  
+  "geo": {
+        "title": "Jeu de géographie",
+        "tags": [
+            "JS",
+            "Api",
+            "Librairie"
+        ],
+        "link":"https://paulinovart.github.io/geo/",
+        "steps": [
+            {
+                "type": "full",
+                "image": "images/projet-geo/geo_mockup.png",
+                "title": "Contexte et idée",
+                "description": "Dans le cadre d’un workshop sur la gestion des API, j’ai conçu un jeu de géographie de type “Geoguessr” dans lequel l’utilisateur doit trouver la localisation du pays demandé sur une carte."
+            },
+            {
+                "type": "double",
+                "items": [
+                    {
+                        "image": "images/projet-geo/code_geo.png",
+                        "title": "Récupération des données des pays ",
+                        "description": "J’ai commencé par trouver sur github un fichier Json contenant la liste des 195 pays du monde, ainsi que leurs coordonnées géographiques. Une fonction en js sélectionne un pays aléatoirement et récupère sa localisation."
+                    },
+                    {
+                        "image": "images/projet-geo/leaflet.webp",
+                        "title": "Chargement de la carte et interaction utilisateur",
+                        "description": "J’ai ensuite utilisé la librairie Js “Leaflet” pour gérer les fonctionnalités d’une carte interactive. Cela m’a permis de charger une carte depuis l’API “OpenStreetMap”, puis de collecter la localisation du clic de l’utilisateur sur la carte."
+                    }
+                ]
+            },
+            {
+                "type": "full",
+                "image": "images/projet-geo/geo_etape_4.png",
+                "title": "Calcul des distances et des scores",
+                "description": " Après avoir récupéré la localisation du clic de l’utilisateur, je l’ai fait comparer avec celle du pays cible, ce qui permet de calculer la distance entre les deux points. Grâce à Leaflet, j’affiche ensuite les deux localisations ainsi qu’un trait les reliant, et la distance en km. J’ai ensuite créé un système de score qui ajoute plus ou moins de points en fonction de la distance entre le clic de l’utilisateur et la cible."
+            }
+        ]
+    },
+
+
+
+
+
+
   "cd-id": {
       "title": "Pochette de disque",
       "tags": [
