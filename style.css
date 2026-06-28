@@ -454,13 +454,13 @@ border: 1px solid white;
   margin: auto;
   display: flex;
   justify-content: flex-end;
-  gap: 100px;
+  gap: 150px;
   margin-top: 12vw;
   margin-bottom: 12vw;
 }
 
 .about-me-image{
-  width: 50%;
+  width: 40%;
 
 
 }
@@ -510,6 +510,10 @@ text-align: start;
    gap: 10px;
    align-items: center;
 
+}
+
+.about-me-paragraph{
+  width: 70%;
 }
 
 .work-experience-element-title h5{

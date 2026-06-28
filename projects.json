@@ -139,7 +139,7 @@
         "steps": [
             {
                 "type": "full",
-                "image": "images/projet-geo/geo_mockup.png",
+                "image": "images/projet-geo/mockup_geo.png",
                 "title": "Contexte et idée",
                 "description": "Dans le cadre d’un workshop sur la gestion des API, j’ai conçu un jeu de géographie de type “Geoguessr” dans lequel l’utilisateur doit trouver la localisation du pays demandé sur une carte."
             },
