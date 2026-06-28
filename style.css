@@ -454,14 +454,14 @@ border: 1px solid white;
   margin: auto;
   display: flex;
   justify-content: flex-end;
-  gap: 200px;
+  gap: 100px;
   margin-top: 12vw;
   margin-bottom: 12vw;
 }
 
 .about-me-image{
-  width: 200px;
-  height: 200px;
+  width: 50%;
+
 
 }
 
