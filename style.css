@@ -507,9 +507,13 @@ text-align: start;
 
 .work-experience-element-title{
   display:flex ;
-
+   gap: 10px;
    align-items: center;
 
+}
+
+.work-experience-element-title h5{
+  width: fit-content;
 }
 .work-experience-element{
   border-bottom: 0.5px solid white;
