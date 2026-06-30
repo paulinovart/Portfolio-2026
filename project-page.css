@@ -64,6 +64,22 @@ margin: auto;
   
   }
 
+
+
+.iframe-container{
+    width: 100%  ;}
+
+
+.iframe-description{
+ margin: 20px 0px;
+   font-family: poppins;
+    font-weight:40 ;
+    color: var(--text-primary-color);
+    font-size: 16px;
+}
+
+
+
 .project-page-step-full, .project-page-step{
     margin-bottom: 10vw;
 }

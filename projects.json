@@ -250,28 +250,11 @@
 
     ],
 
-    "steps": [
-       
-       { "type": "double",
-                "items": [
-                    {
-                        "image": "images/projet-cd/pochette_cd_etape_1.png",
-                        "title": "Choix de l’artiste, sélection des images et inspiration",
-                        "description": "Pour ce projet de design print, j’ai choisi de réaliser une pochette cd d’un de mes groupes de musique préférés, Imagine Dragons. J’ai commencé par réfléchir aux images que je voulais intégrer, et à leur placement."
-                    },
-                    {
-                        "image": "images/projet-cd/pochette_cd_etape_2.png",
-                        "title": "Retouche photo sur et design de la couverture et du poster",
-                        "description": "J’ai choisi d’utiliser une seule photo pour la couverture, que j’ai étendue afin de créer de la continuité sur le produit. J’ai placé sur le côté extérieur une photo du groupe, ainsi que la liste des musiques présentes dans l’album (fictif, puisqu'il s’agit d’un recueil). À l'intérieur, j’ai placé une photo de chaque membre ainsi que leur nom, en faisant attention à garder de la place pour les découpes lors de l’impression. Le poster est également un livret dépliable au verso, qui contient les paroles de chacune des chansons présentes dans l’album."
-                    }
-                ]},
-        {
-            "type": "full",
-            "image": "images/projet-cd/pochette_cd_etape_3.png",
-            "title": "Impression assemblage et mockup",
-            "description": "Après avoir réalisé les designs des différents éléments sur photoshop et illustrator, j’ai préparé le fichier pour l’impression sur indesign, que j’ai ensuite imprimé à l’aide d’une presse numérique. J’ai découpé la pochette cd et l’ai assemblée puis y ait placé un cd, que j’avais recouvert d’un macaron reprenant les design de la couverture. J’ai enfin réalisé différents mockups de la création dans photoshop, afin de la voir dans des conditions réelles."
-        }
-    ]
+    "iframe" : "https://paulinovart.github.io/rotating_block_p5/",
+    "iframeDescription" : "lorem impsum c'est une description"
+    
+
+  
 },
 "croquette": {
     "title": "Jeu de clicker",
@@ -281,6 +264,9 @@
          ""
 
     ],
+      "link":"  https://paulinovart.github.io/croquette-clicker/",
+
+  
 
     "steps": [
        

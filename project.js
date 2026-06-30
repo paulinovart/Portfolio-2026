@@ -31,6 +31,32 @@ if(project.hasOwnProperty("link")){
     linkContainer.innerHTML = `  <a class="link-buton" href="${project.link}"> <div class="arrow-icon">↗</div> Voir le projet</a>`
   }
 
+
+//ajout de l'iframe
+
+if(project.hasOwnProperty("iframe")){
+
+    const iframeContainer = document.getElementById("iframe-container");
+    iframeContainer.innerHTML = `<iframe
+  id="project-iframe"
+  title="test iframe"
+  width="100%"
+  height="90%"
+  src="${project.iframe}"
+
+</iframe>`
+
+
+const iframeDescription = document.getElementById("iframe-description");
+
+iframeDescription.textContent = project.iframeDescription
+
+
+
+  }
+
+
+
     // STEPS
     const container = document.getElementById("project-steps");
     function renderFull(step) {
